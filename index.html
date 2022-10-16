@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Page</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- App Section Left -->
+  <div class="drawer">
+    <div class="dashboard menuItem">
+      <img src="https://cdn-icons-png.flaticon.com/512/4176/4176670.png" alt="dashboard-icon " />
+      <h1>Chobin's Dashboard</h1>
+    </div>
+    <div class="menuItem">
+      <img src="https://cdn-icons-png.flaticon.com/512/7432/7432335.png" alt="" />
+      <h1>Home</h1>
+    </div>
+    <div class="menuItem">
+      <img src="https://cdn-icons-png.flaticon.com/512/3737/3737570.png" alt="" />
+      <h1>Profile</h1>
+    </div>
+    <div class="menuItem">
+      <img src="https://cdn-icons-png.flaticon.com/512/2524/2524760.png" alt="" />
+      <h1>Messages</h1>
+    </div>
+    <div class="menuItem">
+      <img src="https://cdn-icons-png.flaticon.com/512/3769/3769786.png" alt="" />
+      <h1>History</h1>
+    </div>
+    <div class="menuItem">
+      <img src="https://cdn-icons-png.flaticon.com/512/6548/6548184.png" alt="" />
+      <h1>Tasks</h1>
+    </div>
+    <div class="menuItem">
+      <img src="https://cdn-icons-png.flaticon.com/512/3174/3174877.png" alt="" />
+      <h1>Communities</h1>
+    </div>
+    <!--Need extra spacing here, so nth child selector -->
+    <div class="menuItem">
+      <img src="https://cdn-icons-png.flaticon.com/512/673/673546.png" alt="" />
+      <h1>Setting</h1>
+    </div>
+    <div class="menuItem">
+      <img src="https://cdn-icons-png.flaticon.com/512/3982/3982650.png" alt="" />
+      <h1>Support</h1>
+    </div>
+    <div class="menuItem">
+      <img src="https://cdn-icons-png.flaticon.com/512/4055/4055303.png" alt="" />
+      <h1>Privacy</h1>
+    </div>
+  </div>
+  <!-- Nav-bar -->
+  <div class="navbar">
+    <div class="top-nav">
+      <!--top section 40%-->
+      <div class="search">
+        <div class="menuItem">
+          <img src="https://cdn-icons-png.flaticon.com/512/2233/2233735.png" alt="search" />
+        </div>
+        <input type="text" name="search" autocomplete="off">
+      </div>
+      <div class="account">
+        <div class="menuIcon">
+          <img src="https://cdn-icons-png.flaticon.com/512/2700/2700329.png" alt="bell" />
+        </div>
+        <div class="gh-avatar">
+          <img src="https://cdn-icons-png.flaticon.com/512/6739/6739676.png" alt="avatar" />
+        </div>
+        <!-- Our Username -->
+        <p class="name">Vivian Ho</p>
+      </div>
+    </div>
+    <!--bottom section 60%-->
+    <div class="bottom">
+      <!-- Profile Details -->
+      <div class="profile">
+        <div class="gh-avatar">
+          <img src="https://cdn-icons-png.flaticon.com/512/6739/6739676.png" alt="avatar" />
+        </div>
+        <div class="profile-name">
+          <p class="greeting"> Welcome,</p>
+          <p class="name">Vivian <span class="username">(@chobin)</span></p>
+        </div>
+      </div>
+      <!-- button section -->
+      <div class="buttons">
+        <button class="btn">New</button>
+        <button class="btn">Upload</button>
+        <button class="btn">Share</button>
+      </div>
+    </div>
+  </div>
+  <!-- Main Content -->
+  <main class="content">
+    <div class="projects">
+      <h3>Personal Projects</h3>
+      <!-- section for all project cards -->
+      <div class="cards">
+        <!-- each individual card, we need 6 cards -->
+        <div class="card">
+          <h5 class="card-title">Sign-Up Form</h5>
+          <p class="card-text"></p>
+          <div class="icons">
+            <img src="https://cdn-icons-png.flaticon.com/512/5662/5662990.png" alt="save" />
+            <img src="https://cdn-icons-png.flaticon.com/512/4021/4021546.png" alt="trash" />
+            <img src="https://cdn-icons-png.flaticon.com/512/2099/2099085.png" alt="share" />
+          </div>
+        </div>
+        <!-- each individual card, we need 6 cards -->
+        <div class="card">
+          <h5 class="card-title">Calculator</h5>
+          <p class="card-text"></p>
+          <div class="icons">
+            <img src="https://cdn-icons-png.flaticon.com/512/5662/5662990.png" alt="save" />
+            <img src="https://cdn-icons-png.flaticon.com/512/4021/4021546.png" alt="trash" />
+            <img src="https://cdn-icons-png.flaticon.com/512/2099/2099085.png" alt="share" />
+          </div>
+        </div>
+        <!-- each individual card, we need 6 cards -->
+        <div class="card">
+          <h5 class="card-title">Tik-tac-toe</h5>
+          <p class="card-text"></p>
+          <div class="icons">
+            <img src="https://cdn-icons-png.flaticon.com/512/5662/5662990.png" alt="save" />
+            <img src="https://cdn-icons-png.flaticon.com/512/4021/4021546.png" alt="trash" />
+            <img src="https://cdn-icons-png.flaticon.com/512/2099/2099085.png" alt="share" />
+          </div>
+        </div>
+        <!-- each individual card, we need 6 cards -->
+        <div class="card">
+          <h5 class="card-title">Library</h5>
+          <p class="card-text"></p>
+          <div class="icons">
+            <img src="https://cdn-icons-png.flaticon.com/512/5662/5662990.png" alt="save" />
+            <img src="https://cdn-icons-png.flaticon.com/512/4021/4021546.png" alt="trash" />
+            <img src="https://cdn-icons-png.flaticon.com/512/2099/2099085.png" alt="share" />
+          </div>
+        </div>
+        <!-- each individual card, we need 6 cards -->
+        <div class="card">
+          <h5 class="card-title">Restaurant Page</h5>
+          <p class="card-text"></p>
+          <div class="icons">
+            <img src="https://cdn-icons-png.flaticon.com/512/5662/5662990.png" alt="save" />
+            <img src="https://cdn-icons-png.flaticon.com/512/4021/4021546.png" alt="trash" />
+            <img src="https://cdn-icons-png.flaticon.com/512/2099/2099085.png" alt="share" />
+          </div>
+        </div>
+        <!-- each individual card, we need 6 cards -->
+        <div class="card">
+          <h5 class="card-title">Weather App</h5>
+          <p class="card-text"></p>
+          <div class="icons">
+            <img src="https://cdn-icons-png.flaticon.com/512/5662/5662990.png" alt="save" />
+            <img src="https://cdn-icons-png.flaticon.com/512/4021/4021546.png" alt="trash" />
+            <img src="https://cdn-icons-png.flaticon.com/512/2099/2099085.png" alt="share" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Side Content: Announcements and Trending -->
+    <div class="content-right">
+      <!-- Announcements -->
+      <div class="announcements">
+        <ul class="card">
+          <!-- List of individual announcement -->
+          <li class="announcement">
+            <h5>Site Maintenance</h5>
+            <p class="card-text"></p>
+          </li>
+          <li class="announcement">
+            <h5>Community Share Day</h5>
+            <p class="card-text"></p>
+          </li>
+          <li class="announcement">
+            <h5>Updated Privacy Policy</h5>
+            <p class="card-text"></p>
+          </li>
+        </ul>
+      </div>
+      <!-- Trending -->
+      <div class="trending">
+        <h3>Trending</h3>
+        <ul class="card">
+          <li class="trend trend1">
+            <div class="gh-avatar2">
+              <img src="https://cdn-icons-png.flaticon.com/512/2171/2171975.png" alt="mad-frenchie" />
+            </div>
+            <div class="account">
+              <p class="username">@lucyho</p>
+              <p class="name card-text">Restaurant Page</p>
+            </div>
+          </li>
+          <li class="trend trend2">
+            <div class="gh-avatar3">
+              <img src="https://cdn-icons-png.flaticon.com/512/6426/6426346.png" alt="black-pitbull" />
+            </div>
+            <div class="account">
+              <p class="username">@mauihuynh</p>
+              <p class="name card-text">Calculator</p>
+            </div>
+          </li>
+          <li class="trend trend3">
+            <div class="gh-avatar4">
+              <img src="https://cdn-icons-png.flaticon.com/512/3187/3187655.png" alt="blue-frenchie" />
+            </div>
+            <div class="account">
+              <p class="username">@stoneyh</p>
+              <p class="name card-text">Tik-tac-toe</p>
+            </div>
+          </li>
+          <li class="trend trend4">
+            <div class="gh-avatar5">
+              <img class="pupper" src="https://cdn-icons-png.flaticon.com/512/3307/3307733.png" alt="baby-frenchie" />
+            </div>
+            <div class="account">
+              <p class="username">@babyastro</p>
+              <p class="name card-text">Library</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
